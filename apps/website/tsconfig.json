@@ -1,0 +1,17 @@
+{
+  "extends": "../../.config/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../.moon/cache/types/apps/website",
+
+    /* Astro's Base overrides */
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "isolatedDeclarations": false,
+    "allowJs": true,
+    "jsx": "preserve"
+  },
+  "exclude": ["dist"]
+}

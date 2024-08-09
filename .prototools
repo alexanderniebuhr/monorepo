@@ -1,0 +1,9 @@
+# renovate: datasource=github-tags depName=moonrepo/moon
+moon = "latest"
+# renovate: datasource=node-version depName=node versioning=node
+node = "latest"
+# renovate: datasource=npm depName=pnpm
+pnpm = "latest"
+
+[plugins]
+moon = "source:https://raw.githubusercontent.com/moonrepo/moon/master/proto-plugin.toml"

@@ -1,0 +1,18 @@
+{
+  "license": "MIT",
+  "author": {
+    "name": "Alexander Niebuhr",
+    "url": "https://github.com/alexanderniebuhr"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@types/node": "22.1.0",
+    "typescript": "5.5.4"
+  },
+  "scripts": {
+    "moon": "moon"
+  },
+  "engines": {
+    "node": "latest"
+  }
+}
